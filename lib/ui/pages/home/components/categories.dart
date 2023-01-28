@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:waste_classifier/types/categories_type.dart';
 import 'package:waste_classifier/types/text_heading_type.dart';
-import 'package:waste_classifier/ui/color.dart';
-import 'package:waste_classifier/ui/heading.dart';
+import 'package:waste_classifier/ui/theme/color.dart';
+import 'package:waste_classifier/ui/theme/heading.dart';
 import 'package:waste_classifier/ui/pages/home/components/category.dart';
-import 'package:waste_classifier/ui/paragraph.dart';
+import 'package:waste_classifier/ui/theme/paragraph.dart';
 import 'package:waste_classifier/types/text_paragraph_type.dart';
 
 class Categories extends StatelessWidget {

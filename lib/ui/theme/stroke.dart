@@ -1,5 +1,5 @@
 import 'package:flutter/painting.dart';
-import 'package:waste_classifier/ui/color.dart' as color;
+import 'package:waste_classifier/ui/theme/color.dart' as color;
 
 class Stroke {
   static final card = Border.all(

@@ -3,11 +3,11 @@ import 'package:gap/gap.dart';
 import 'package:waste_classifier/types/categories_type.dart';
 import 'package:waste_classifier/types/text_heading_type.dart';
 
-import 'package:waste_classifier/ui/stroke.dart';
+import 'package:waste_classifier/ui/theme/stroke.dart';
 
-import 'package:waste_classifier/ui/color.dart';
-import 'package:waste_classifier/ui/heading.dart';
-import 'package:waste_classifier/ui/shadow.dart';
+import 'package:waste_classifier/ui/theme/color.dart';
+import 'package:waste_classifier/ui/theme/heading.dart';
+import 'package:waste_classifier/ui/theme/shadow.dart';
 
 
 
