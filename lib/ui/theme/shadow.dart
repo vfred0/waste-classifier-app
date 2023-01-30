@@ -14,4 +14,11 @@ class Shadow {
     spreadRadius: 0,
     blurRadius: 4,
   );
+  
+  static const navbar = BoxShadow(
+    color: Color.fromARGB(60, 13, 11, 11),
+    offset: Offset(0, 0),
+    spreadRadius: 0,
+    blurRadius: 54,
+  );
 }

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:waste_classifier/ui/theme/color.dart';
-import 'package:waste_classifier/ui/pages/home/components/categories.dart';
-import 'package:waste_classifier/ui/pages/home/components/logo.dart';
+import 'package:waste_classifier/ui/pages/home/widgets/categories.dart';
+import 'package:waste_classifier/ui/pages/home/widgets/logo.dart';
 import 'package:waste_classifier/ui/theme/paragraph.dart';
 import 'package:waste_classifier/types/text_paragraph_type.dart';
+import 'package:waste_classifier/ui/widgets/nav_bar.dart';
 
 
 class HomePage extends StatelessWidget {
@@ -20,7 +21,7 @@ class HomePage extends StatelessWidget {
             const Gap(22),
             const Logo(),
             const Gap(38),
-            Container(
+            Container(              
               width: double.infinity,
               padding: const EdgeInsets.all(18),
               child: Column(
@@ -36,6 +37,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
+            const NavBar()
           ],
         ),
       ),

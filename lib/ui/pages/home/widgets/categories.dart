@@ -5,7 +5,7 @@ import 'package:waste_classifier/types/categories_type.dart';
 import 'package:waste_classifier/types/text_heading_type.dart';
 import 'package:waste_classifier/ui/theme/color.dart';
 import 'package:waste_classifier/ui/theme/heading.dart';
-import 'package:waste_classifier/ui/pages/home/components/category.dart';
+import 'package:waste_classifier/ui/pages/home/widgets/category.dart';
 import 'package:waste_classifier/ui/theme/paragraph.dart';
 import 'package:waste_classifier/types/text_paragraph_type.dart';
 
@@ -43,8 +43,8 @@ class Categories extends StatelessWidget {
 
     for (int i = 0; i < CategoriesType.values.length; i++) {
       categories.add(TableRow(children: [
-        Category(categoryType: CategoriesType.values[i]),                    
-        Category(categoryType: CategoriesType.values[i + 1]),                
+        Category(categoryType: CategoriesType.values[i]),
+        Category(categoryType: CategoriesType.values[i + 1]),
         Category(categoryType: CategoriesType.values[i + 2]),
       ]));
       i += 2;
